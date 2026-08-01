@@ -1,7 +1,27 @@
 aid: socialcam
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/socialcam.png
 name: Socialcam
-description: Socialcam is a company surfaced as a portfolio company of a16z and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Socialcam was a mobile social video application (iPhone, Android, Windows
+  Phone) for capturing, editing, and sharing short videos across social
+  networks. Founded by Michael Seibel, Ammon Bartram, and Guillaume Luccisano
+  out of Y Combinator (W2012) and backed by a16z, it reached roughly 16 million
+  downloads and was acquired by Autodesk in July 2012 for $60 million. The
+  consumer service was discontinued on October 28, 2015, and socialcam.com no
+  longer resolves to a live web host (AWS Route 53 nameservers only, no A
+  record), so there is no developer portal, API, documentation, or agent
+  surface to enrich.
 url: https://raw.githubusercontent.com/api-evangelist/socialcam/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +29,28 @@ x-backed-by:
 - a16z
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-acquired-by: Autodesk
+x-acquired-date: '2012-07'
+x-service-ended: '2015-10-28'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Video
+- Social Media
+- Mobile
+- Y Combinator
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
